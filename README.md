@@ -40,7 +40,7 @@ This structure is not scalable.
 
 ---
 
-## ✅ Step 1: First Normal Form (1NF)
+## Step 1: First Normal Form (1NF)
 
 ### Rule:
 
@@ -60,7 +60,7 @@ No decomposition yet — only structural validation.
 
 ---
 
-## ✅ Step 2: Second Normal Form (2NF)
+## Step 2: Second Normal Form (2NF)
 
 ### Rule:
 
@@ -83,11 +83,11 @@ This violates 2NF.
 
 ---
 
-## 🔥 Decomposition for 2NF
+## Decomposition for 2NF
 
 We separate attributes based on their determinants.
 
-### 🎭 Theatre Table
+### Theatre Table
 
 ```sql
 CREATE TABLE Theatre(
@@ -102,7 +102,7 @@ theatre_id → theatre_name, theatre_image
 
 ---
 
-### 🎥 Cinema Table
+### Cinema Table
 
 ```sql
 CREATE TABLE Cinema(
@@ -146,7 +146,7 @@ Now:
 
 ---
 
-## ✅ Step 3: Third Normal Form (3NF)
+## Step 3: Third Normal Form (3NF)
 
 ### Rule:
 
@@ -171,7 +171,7 @@ Since theatre_name and cinema_name are stored in separate tables:
 
 ---
 
-## ✅ Step 4: Boyce-Codd Normal Form (BCNF)
+## Step 4: Boyce-Codd Normal Form (BCNF)
 
 ### Rule:
 
